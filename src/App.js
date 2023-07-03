@@ -4,7 +4,10 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import Homepage from './Components/Homepage';
 import Projects from './Components/Projects';
+import Swal from 'sweetalert2';
+import { useEffect } from 'react';
 function App() {
+  Swal.fire("The Website is in development mode");
   return (
     <div className="App">
       <Routes>
